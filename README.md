@@ -12,10 +12,6 @@ npm ci
 npm run dev
 ```
 
-起動したら、ブラウザで http://localhost:8080 にアクセスしてください。
-
-Cloud9 の場合は、「Tools」>「Preview」>「Preview Running Application」でプレビューを起動して、「Pop Out Into New Window」でブラウザの別タブでアクセスしてください。
-
 ## バックエンドをビルドして実行する手順
 
 バックエンドをビルドして実行する場合は、以下のコマンドを実行してください。
@@ -26,3 +22,9 @@ npm ci
 npm run build
 node dist/index.js
 ```
+
+## バッチ
+
+[![backend](https://github.com/Yuji-Momotani/github-actions-sample/actions/workflows/backend.yml/badge.svg)](https://github.com/Yuji-Momotani/github-actions-sample/actions/workflows/backend.yml)
+
+`Actions` のタブから > 最新のテスト結果 > 右上の三点リーダー > `Create status badge`から作成できる
